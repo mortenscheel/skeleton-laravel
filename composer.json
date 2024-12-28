@@ -80,7 +80,7 @@
         ],
         "test:pest": [
             "@putenv XDEBUG_MODE=coverage",
-            "pest --colors=always --coverage --parallel --min=100"
+            "pest --colors=always --parallel --coverage --min=100"
         ],
         "test:phpstan": "phpstan analyse --ansi",
         "test:pint": "pint --test",

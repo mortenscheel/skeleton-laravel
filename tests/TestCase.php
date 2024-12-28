@@ -35,4 +35,11 @@ class TestCase extends Orchestra
             PackageNameServiceProvider::class,
         ];
     }
+
+    protected function getPackageAliases($app)
+    {
+        return [
+            'PackageName' => \Scheel\PackageName\Facades\PackageName::class,
+        ];
+    }
 }
