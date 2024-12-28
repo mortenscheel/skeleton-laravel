@@ -7,5 +7,5 @@ it('can test', function (): void {
 });
 
 it('can use facade alias', function (): void {
-    expect(\PackageName::example())->toBeTrue();
+    expect(PackageName::example())->toBeTrue();
 });
