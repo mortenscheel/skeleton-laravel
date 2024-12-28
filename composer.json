@@ -84,7 +84,7 @@
             "@putenv XDEBUG_MODE=coverage",
             "pest --colors=always --parallel --coverage --min=100"
         ],
-        "test:phpstan": "phpstan analyse --ansi",
+        "test:phpstan": "phpstan analyse --ansi --memory-limit=-1",
         "test:pint": "pint --test",
         "test:rector": "rector --dry-run"
     }
