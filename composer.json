@@ -24,6 +24,7 @@
         "orchestra/testbench": "^9.9",
         "pestphp/pest": "^3.7.1",
         "pestphp/pest-plugin-type-coverage": "^3.2.3",
+        "phpro/grumphp-shim": "^2.10",
         "phpstan/extension-installer": "^1.4",
         "phpstan/phpstan": "^2.0.4",
         "phpstan/phpstan-deprecation-rules": "^2.0",
@@ -48,6 +49,7 @@
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true,
+            "phpro/grumphp-shim": true,
             "phpstan/extension-installer": true
         },
         "preferred-install": "dist",
