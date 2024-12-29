@@ -6,6 +6,7 @@ namespace Scheel\PackageName\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Scheel\PackageName\Facades\PackageName;
 use Scheel\PackageName\PackageNameServiceProvider;
 
 class TestCase extends Orchestra
@@ -39,7 +40,7 @@ class TestCase extends Orchestra
     protected function getPackageAliases($app)
     {
         return [
-            'PackageName' => \Scheel\PackageName\Facades\PackageName::class,
+            'PackageName' => PackageName::class,
         ];
     }
 }
