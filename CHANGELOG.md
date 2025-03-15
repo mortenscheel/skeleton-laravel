@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.1.2](https://github.com/mortenscheel/skeleton-laravel/compare/0.1.1...0.1.2) (2025-03-15)
+
 ## [0.1.1](https://github.com/mortenscheel/skeleton-laravel/compare/0.1.0...0.1.1) (2025-03-15)
 
 # 0.1.0 (2024-12-28)
