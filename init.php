@@ -25,6 +25,7 @@ $replacements = [
     'PackageName' => Str::studly($name),
     'package-name' => Str::kebab($name),
     'mortenscheel/skeleton-laravel' => 'mortenscheel/'.Str::kebab($name),
+    'A skeleton repository for my packages' => '',
 ];
 $finder = Finder::create()
     ->in(__DIR__)
